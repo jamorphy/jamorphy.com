@@ -1,0 +1,7 @@
+#+title: jamorphy.com
+#+OPTIONS: html-preamble:nil postamble:t num:nil toc:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles.css" />
+winnable
+
+** dump
+<coming soon>
