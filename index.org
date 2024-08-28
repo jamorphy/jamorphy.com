@@ -1,7 +1,5 @@
-#+title: jamorphy.com
+#+title: Winnable
 #+OPTIONS: html-preamble:nil postamble:t num:nil toc:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles.css" />
-winnable
 
-** dump
-<coming soon>
+[[./db/terraingen/index.html][terraingen]] - A neural network terrain generator, running in browser
