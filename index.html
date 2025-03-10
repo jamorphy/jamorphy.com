@@ -16,11 +16,35 @@
       <p>
          <a href="./db/cotw/">clips of the week</a> <a href="./db/terraingen/">terraingen</a> <a href="./db/adding-llms-to-gtav">LLM in GTA</a> <a href="https://github.com/jamorphy/khanguy824">khanguy824</a> <a href="https://github.com/jamorphy/ai-stream-companion">JAVIS</a>
       </p>
+
       [links]
       <p>
-        <a href="https://www.youtube.com/live/2Mc8-FRUqgM?feature=shared&t=1281">Defeating the Ender Dragon</a> <a href="https://www.youtube.com/live/epRZrzeBsj0?feature=shared&t=6844">Defeating Gwyn</a> <a href="https://www.youtube.com/watch?v=X2omkBjK9Q4">Dead Viking</a>
+        <a href="https://github.com/jamorphy">GitHub</a>
+        <a href="https://www.youtube.com/@jamorphy">YouTube</a>
+        <a href="https://x.com/jaxmorphy">X</a>
       </p>
-      <p><a href="https://github.com/jamorphy">GitHub</a> <a href="https://www.youtube.com/@jamorphy">YouTube</a> <a href="https://x.com/jaxmorphy">X</a></p>
+
+      <div class="other-section">
+        <span onclick="toggleOther()">[other]</span>
+        <div id="other-content" style="display: none;">
+          <p>
+            <a href="https://www.youtube.com/live/2Mc8-FRUqgM?feature=shared&t=1281">Defeating the Ender Dragon</a>
+            <a href="https://www.youtube.com/live/epRZrzeBsj0?feature=shared&t=6844">Defeating Gwyn</a>
+            <a href="https://www.youtube.com/watch?v=X2omkBjK9Q4">Dead Viking</a>
+          </p>
+        </div>
+      </div>
     </div>
+
+    <script>
+      function toggleOther() {
+        const otherContent = document.getElementById('other-content');
+        if (otherContent.style.display === 'none') {
+          otherContent.style.display = 'block';
+        } else {
+          otherContent.style.display = 'none';
+        }
+      }
+    </script>
   </body>
 </html>

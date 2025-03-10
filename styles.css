@@ -57,3 +57,19 @@ p {
 p + p {
     margin-top: 0.2em;
 }
+
+.other-section {
+  margin: 10px 0;
+}
+
+.other-section span {
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.other-section span:hover {
+  text-decoration: underline; /* Optional: adds underline on hover for visual feedback */
+}
+
+#other-content {
+  margin-top: 5px;
+}
