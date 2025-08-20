@@ -1,7 +1,7 @@
 body {
     font-family: monospace;
     background-color: #222;
-    margin: 1.4em;
+    margin: 1.7em;
     max-width: 1000px;
     line-height: 1.5;
     font-size: 16px;
@@ -9,7 +9,9 @@ body {
     padding: 0 5px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     line-height: 1.2;
     color: #eee;
 }
@@ -50,26 +52,26 @@ img.center-image {
 }
 
 p {
-    margin: 0.5em 0;
+    margin: 0.5em 2em;
 }
 
 /* Add this to remove extra space between consecutive links */
 p + p {
-    margin-top: 0.2em;
+    margin-top: 0.4em;
 }
 
 .other-section {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .other-section span {
-  cursor: pointer; /* Changes cursor to pointer on hover */
+    cursor: pointer; /* Changes cursor to pointer on hover */
 }
 
 .other-section span:hover {
-  text-decoration: underline; /* Optional: adds underline on hover for visual feedback */
+    text-decoration: underline; /* Optional: adds underline on hover for visual feedback */
 }
 
 #other-content {
-  margin-top: 5px;
+    margin-top: 5px;
 }
